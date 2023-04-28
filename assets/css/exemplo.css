@@ -1,0 +1,118 @@
+body {
+
+}
+
+nav {border: Bem vindo ao PetShop AnimalFeliz;
+	background:  rgba(108,184,190,1);
+	color: #f1f1f1;
+	border-radius: 20px;
+
+}
+h2{text-align: center;}
+ul{	margin: 0px 0px 0px 0px;
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	align-items: center;
+	padding: 16pt;
+	margin: 0px;
+	font-size: 15px;
+}
+li a:hover{color: black;
+}
+p{text-align: center;
+}
+h1{
+	text-align: center;
+	color: #f1f1f1;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: monospace;
+}
+nav a{color: #f1f1f1;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+}
+ h2{font-family: Arial, Helvetica, sans-serif
+}
+ p {font-family: Arial, Helvetica, sans-serif;
+}	
+li a{font-family: Arial, Helvetica, sans-serif;
+	}
+a{background: transparent;
+}
+h3{font-family: monospace;
+	color: black;
+}
+h4{	text-align: center;
+	color: black;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h5{font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+text-align: center;
+}
+h6{text-align: center;
+color: #f1f1f1;
+font-family: monospace;
+font-size: 30px;
+}
+
+nav style{color: #f1f1f1;}
+p{font-family: Arial, Helvetica, sans-serif;
+	color: black;
+}
+.member {border-radius: 30px;}
+.member img{ border-radius: 30px;}
+
+
+
+
+
+
+
+/*
+	Informações a respeitos dos membros da página
+*/
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.member {
+	
+	width: 300px;
+	height: 450px;
+	margin-bottom: 30px;
+	background-color: #f1f1f1;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.member img {
+
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.member h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.member p {
+	margin-bottom: 0;
+	font-size: 18px;
+	text-align: center;
+}
